@@ -30,6 +30,14 @@
       "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
     },
     {
+      "id": "rick_baker",
+      "file": "sections/02b_rick_baker.html",
+      "title": "Rick Baker Quote",
+      "order": 3,
+      "enabled": true,
+      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
+    },
+    {
       "id": "before_after",
       "file": "sections/03_before_after.html",
       "title": "Before After",
