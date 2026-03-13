@@ -1487,6 +1487,13 @@ body {
     opacity: 1;
 }
 
+.quote-highlight {
+    color: #fff;
+    font-size: 1.15em;
+    font-weight: 800;
+    font-style: normal;
+}
+
 @media (max-width: 768px) {
     .quote-layout {
         grid-template-columns: 1fr;
