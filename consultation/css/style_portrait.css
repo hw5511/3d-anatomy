@@ -1726,6 +1726,85 @@ body {
     max-width: 100%;
 }
 
+/* ============================================
+   Curriculum Placement Flow
+   ============================================ */
+.placement-flow {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    flex-wrap: wrap;
+    padding: var(--space-xl) 0;
+}
+
+.placement-box {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg) var(--space-xl);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-xs);
+    min-width: 140px;
+}
+
+.placement-box--accent {
+    background: var(--accent);
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 20px rgba(37, 99, 235, 0.4);
+}
+
+.placement-label {
+    font-size: clamp(0.9rem, 1.2vw, 1.1rem);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.placement-recommend {
+    font-size: clamp(0.7rem, 0.85vw, 0.8rem);
+    font-weight: 600;
+    opacity: 0.8;
+    letter-spacing: 0.1em;
+    margin-top: 0.25rem;
+}
+
+.placement-arrow {
+    display: flex;
+    align-items: center;
+    padding: 0 var(--space-sm);
+    opacity: 0.4;
+    flex-shrink: 0;
+}
+
+.placement-note {
+    text-align: center;
+    margin-top: var(--space-xl);
+}
+
+.placement-note p {
+    font-size: clamp(0.9rem, 1.2vw, 1.1rem);
+    opacity: 0.6;
+    line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+    .placement-flow {
+        flex-direction: column;
+        gap: var(--space-xs);
+    }
+    .placement-arrow {
+        transform: rotate(90deg);
+        padding: 0;
+    }
+    .placement-box {
+        min-width: 200px;
+    }
+}
+
 /* Single video use case (when odd number) */
 .usecase-single-center {
     display: flex;
