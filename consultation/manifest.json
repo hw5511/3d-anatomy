@@ -30,6 +30,14 @@
       "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
     },
     {
+      "id": "only_here",
+      "file": "sections/03_only_here.html",
+      "title": "Only Here",
+      "order": 3,
+      "enabled": true,
+      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
+    },
+    {
       "id": "what_is_3d_anatomy",
       "file": "sections/02_what_is_3d_anatomy.html",
       "title": "3D Anatomy?",
