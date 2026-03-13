@@ -2074,13 +2074,15 @@ body {
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
-    padding: var(--space-lg) var(--space-xl);
+    padding: var(--space-xl) var(--space-xl);
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: var(--space-xs);
     min-width: 140px;
+    min-height: 80px;
 }
 
 .placement-box--accent {
