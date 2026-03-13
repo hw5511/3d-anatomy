@@ -1,0 +1,15 @@
+{
+  "name": "3d-anatomy-lecture",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n build,serve -c blue,green \"chokidar \\\"sections/**/*.html\\\" \\\"manifest.json\\\" -c \\\"python build.py\\\"\" \"live-server . --port=3008 --open=_build/3d_anatomy.html --wait=300\"",
+    "build": "python build.py",
+    "build:standalone": "python build.py --standalone"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "concurrently": "^9.0.0",
+    "live-server": "^1.2.2"
+  }
+}
