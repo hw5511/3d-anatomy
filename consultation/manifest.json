@@ -30,6 +30,14 @@
       "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
     },
     {
+      "id": "what_you_learn",
+      "file": "sections/05b_what_you_learn.html",
+      "title": "What You Learn",
+      "order": 3,
+      "enabled": true,
+      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
+    },
+    {
       "id": "rick_baker",
       "file": "sections/02b_rick_baker.html",
       "title": "Rick Baker Quote",
@@ -90,14 +98,6 @@
       "file": "sections/05_target_students.html",
       "title": "Target Students",
       "order": 5,
-      "enabled": true,
-      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
-    },
-    {
-      "id": "what_you_learn",
-      "file": "sections/05b_what_you_learn.html",
-      "title": "What You Learn",
-      "order": 6,
       "enabled": true,
       "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
     },

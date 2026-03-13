@@ -1435,8 +1435,8 @@ body {
     width: 100%;
     height: 100%;
     background-image: url('https://cdn.dbltv.com/news/photo/202110/18007_19846_4348.jpg');
-    background-size: 200%;
-    background-position: 0% 10%;
+    background-size: 220%;
+    background-position: -5% 5%;
     filter: grayscale(100%) brightness(0.35);
     z-index: 1;
 }
@@ -1455,6 +1455,35 @@ body {
         rgba(0, 0, 0, 0.3) 70%,
         rgba(0, 0, 0, 0.2) 100%
     );
+}
+
+.what-learn-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--space-sm);
+    max-width: 800px;
+}
+
+.what-learn-text {
+    font-size: clamp(1.1rem, 1.6vw, 1.4rem);
+    line-height: 1.8;
+    opacity: 0.75;
+}
+
+.what-learn-text strong {
+    opacity: 1;
+    font-weight: 700;
+    color: #fff;
+}
+
+.what-learn-highlight {
+    font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+    font-weight: 800;
+    color: var(--accent);
+    margin-top: var(--space-md);
+    line-height: 1.4;
 }
 
 /* ============================================
@@ -2197,6 +2226,25 @@ body {
     </div>
 </section>
 
+<section class="section section--dark what-learn-section" data-section-id="what_you_learn">
+    <div class="what-learn-bg"></div>
+    <div class="section-container" style="position: relative; z-index: 2;">
+        <div class="section-header">
+            <span class="section-badge">LEARN</span>
+            <h2 class="section-title">무엇을 배우나요?</h2>
+        </div>
+
+        <div class="content-area">
+            <div class="what-learn-content">
+                <p class="what-learn-text">점토를 이용해 <strong>인체 전신 모형</strong>을 제작하여,</p>
+                <p class="what-learn-text">인체 <strong>해부학적 구조</strong>와 <strong>용어</strong>를 습득하고,</p>
+                <p class="what-learn-text">양감을 손과 눈으로 느끼며</p>
+                <p class="what-learn-highlight">입체감과 공간감을 훈련합니다.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section section--dark" data-section-id="rick_baker">
     <div class="section-container">
         <div class="content-area">
@@ -2382,24 +2430,6 @@ body {
                         <li>인체 드로잉의 입체감을 강화하고 싶은 학생</li>
                         <li>해부학 기반의 정확한 인체 표현을 원하는 학생</li>
                     </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section section--dark what-learn-section" data-section-id="what_you_learn">
-    <div class="what-learn-bg"></div>
-    <div class="section-container" style="position: relative; z-index: 2;">
-        <div class="section-header">
-            <span class="section-badge">LEARN</span>
-            <h2 class="section-title">무엇을 배우나요?</h2>
-        </div>
-
-        <div class="content-area">
-            <div class="insight-center">
-                <div class="insight-detail">
-                    <p>점토를 이용해 인체 전신 모형을 제작하여,<br>인체 해부학적 구조와 용어를 습득하고,<br>양감을 손과 눈으로 느끼며<br><strong>입체감과 공간감</strong>을 훈련합니다.</p>
                 </div>
             </div>
         </div>
