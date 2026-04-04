@@ -4,8 +4,8 @@
     "name": "3d_anatomy",
     "title": "3D Anatomy Lecture",
     "author": "Woohee",
-    "date": "2026-03-13",
-    "version": "2.0.0"
+    "date": "2026-04-05",
+    "version": "2.1.0"
   },
   "presentation": {
     "type": "curriculum",
@@ -49,23 +49,23 @@
       "id": "before_after",
       "file": "sections/03_before_after.html",
       "title": "Before After",
-      "order": 3,
-      "enabled": true,
+      "order": 101,
+      "enabled": false,
       "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
     },
     {
       "id": "only_here",
       "file": "sections/03_only_here.html",
       "title": "Only Here",
-      "order": 4,
+      "order": 5,
       "enabled": true,
-      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
+      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-04-05T00:00:00" }
     },
     {
       "id": "what_is_3d_anatomy",
       "file": "sections/02_what_is_3d_anatomy.html",
       "title": "3D Anatomy?",
-      "order": 3,
+      "order": 102,
       "enabled": false,
       "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
     },
@@ -73,7 +73,7 @@
       "id": "traditional_vs_3d",
       "file": "sections/03_traditional_vs_3d.html",
       "title": "Traditional vs 3D",
-      "order": 4,
+      "order": 103,
       "enabled": false,
       "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
     },
@@ -81,7 +81,7 @@
       "id": "industry_trends",
       "file": "sections/04_industry_trends.html",
       "title": "Industry Trends",
-      "order": 5,
+      "order": 104,
       "enabled": false,
       "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
     },
@@ -89,7 +89,7 @@
       "id": "who_needs",
       "file": "sections/05_who_needs.html",
       "title": "Who Needs This",
-      "order": 6,
+      "order": 105,
       "enabled": false,
       "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
     },
@@ -97,49 +97,49 @@
       "id": "target_students",
       "file": "sections/05_target_students.html",
       "title": "Target Students",
-      "order": 5,
+      "order": 6,
       "enabled": true,
-      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
+      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-04-05T00:00:00" }
     },
     {
       "id": "curriculum_roadmap",
       "file": "sections/06_curriculum_roadmap.html",
       "title": "Curriculum Roadmap",
-      "order": 6,
+      "order": 7,
       "enabled": true,
-      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
+      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-04-05T00:00:00" }
     },
     {
       "id": "curriculum_placement",
       "file": "sections/07_curriculum_placement.html",
       "title": "Curriculum Placement",
-      "order": 6,
+      "order": 8,
       "enabled": true,
-      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
+      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-04-05T00:00:00" }
     },
     {
       "id": "basic_curriculum",
       "file": "sections/07_basic_curriculum.html",
       "title": "Basic Curriculum",
-      "order": 8,
-      "enabled": false,
-      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
+      "order": 9,
+      "enabled": true,
+      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-04-05T00:00:00" }
     },
     {
       "id": "advanced_curriculum",
       "file": "sections/08_advanced_curriculum.html",
       "title": "Advanced Curriculum",
-      "order": 9,
-      "enabled": false,
-      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
+      "order": 10,
+      "enabled": true,
+      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-04-05T00:00:00" }
     },
     {
       "id": "master_curriculum",
       "file": "sections/09_master_curriculum.html",
       "title": "Master Curriculum",
-      "order": 10,
-      "enabled": false,
-      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-03-13T00:00:00" }
+      "order": 11,
+      "enabled": true,
+      "metadata": { "created": "2026-03-13T00:00:00", "modified": "2026-04-05T00:00:00" }
     }
   ],
   "build_config": {

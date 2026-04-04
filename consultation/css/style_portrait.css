@@ -342,7 +342,7 @@ body {
 
 .image-full {
     width: 100%;
-    max-width: 900px;
+    max-width: 1300px;
     text-align: center;
 }
 
@@ -565,7 +565,7 @@ body {
 /* Zillow/Yam side crop */
 .image-crop-sides {
     width: 100%;
-    max-width: 900px;
+    max-width: 1300px;
     overflow: hidden;
     border-radius: var(--radius);
     border: 1px solid var(--border);
@@ -970,7 +970,7 @@ body {
 .compare-grid {
     flex: 1;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: var(--space-lg);
 }
 
@@ -1766,7 +1766,7 @@ body {
    ============================================ */
 .video-showcase {
     width: 100%;
-    max-width: 900px;
+    max-width: 1300px;
     border-radius: var(--radius-lg);
     overflow: hidden;
     border: 2px solid #1a1a2e;
@@ -1788,7 +1788,7 @@ body {
     align-items: center;
     gap: var(--space-sm);
     padding: var(--space-sm) 0;
-    max-width: 900px;
+    max-width: 1300px;
     width: 100%;
 }
 
@@ -1906,7 +1906,7 @@ body {
    ============================================ */
 .usecase-dual-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: var(--space-lg);
     width: 100%;
     max-width: 1200px;
@@ -1964,10 +1964,10 @@ body {
 .target-grid {
     flex: 1;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: var(--space-lg);
     align-items: stretch;
-    max-width: 900px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
